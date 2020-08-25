@@ -2,14 +2,11 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "5gL6s3niylE":
+      case "5hhX4F4shVs":
         Script1();
         break;
-      case "6lsEtX3Wkts":
+      case "6dIVgouRIQa":
         Script2();
-        break;
-      case "6YmQ5ilprEj":
-        Script3();
         break;
   }
 }
@@ -40,14 +37,8 @@ function Script2()
   var player = GetPlayer();
 this.Location= player.GetVar("location");
 var audio = document.getElementById('bgSong');
-audio.src= Location + "Ghost_Story_Kevin MacLeod.mp3";
+audio.src= location + "Ghost_Story_Kevin MacLeod.mp3";
 audio.load();
 audio.play();
-}
-
-function Script3()
-{
-  var audio = document.getElementById('bgSong');
-audio.volume = 2;
 }
 
